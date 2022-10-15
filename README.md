@@ -1,18 +1,18 @@
 # Domain-Offensive DNS Authenticator plugin for Certbot
 
-# Why this fork?
+## Why this fork?
 
 Maybe I'm not the only one who struggled finding out how to use this plugin originally created by georgeto.
 Thus, I forked it and wrote this readme.
 @georgeto: Thanks for this great plugin! 👍
 
 
-# General
+## General
 
 This plugin automates the process of completing a ``dns-01`` challenge by creating, and subsequently removing, TXT records using the DomainOffensive (do.de) API.
 
 
-# Credentials
+## Credentials
 
 Before being able to this plugin, you need to obtain an API token from your DomainOffensive account:
 
@@ -21,7 +21,7 @@ https://my.do.de/settings/domains/general
 Click on the button next to "Let's Encrypt API-Token" and write down the API key that is shown in the newly opened window.
 
 
-# How to install
+## How to install
 
 I finally got it working and wanted to share my findings with you.
 All steps described have been tested on Debian 11 as root.
